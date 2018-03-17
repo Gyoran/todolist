@@ -1,0 +1,27 @@
+body, p, ol, ul, td, th{line-height: 18px}
+h2{line-height: 24px; font-size: 24px; margin-bottom: 5px}
+body{margin: 0; padding: 0; background: #eaeac7}
+img{border: 0;}
+li{padding-top: 5px; padding-bottom: 3px; border-bottom: 1px solid #c6c6c6;}
+#navbar{height: 65px; color: #1d2129; text-align: center; width: 100%; padding-bottom: 10px}
+#navbar a{font-size: 18px; text-decoration: none; display: inline-block; color: #42382b; font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;}
+#navbar a:hover{background: #a5a49a}
+#pageHeader{width: 100%; border: 0; text-align: right; background: #eaeac7; padding: 0; position: static}
+#pageBottom{width: 1100px; margin: 0 auto; text-align: left;}
+#pageCenter{text-align: center; position: relative; width: 100%; margin: 0 auto 20px; display: inline-block}
+#newsBox{font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif; margin: 0 auto; text-align: left; font-size: 16px}
+#requestTitle{padding: 10px 0; font-size: 18px; font-weight: bolder; color: black; color: rgba(0,0,0,.75); background: #f1f1f1; border-radius: 2px; border-left: 1px solid #c6c6c6; border-right: 1px solid #c6c6c6; border-top: 1px solid #c6c6c6;}
+#requestTitle span, #requestTitle button{padding: 1px 4px; display: inline-block; text-decoration: none}
+#requestTitle h2{display: inline-block; padding: 1px 4px; margin: 0}
+#errorLi{display: none; background-color: #f97748; color: #333; font-weight: bold; font-size: 12px}
+.main{position: relative; width: 965px; text-align: left; margin: 0 auto}
+a.main, .main a{text-decoration: none}
+.head{font-size: 18px; font-weight: bolder; color: black; color: rgba(0,0,0,.75);}
+.requestBox{background: #f1f1f1; border-radius: 2px; border: 1px solid #c6c6c6; margin: 0 auto; text-align: left; font-size: 16px; list-style-type: none; padding: 0; font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif}
+.requestBox button{font-weight: bold; padding: 4px; vertical-align: middle; border-radius: 3px; border: 1px solid #D6D0C4; font-size: 13px; -moz-appearance: none; -o-appearance: none; -webkit-appearance: none; appearance: none; cursor: pointer; display: inline-block; text-decoration: none; color: #333333; background-color: #ffffff; line-height: 1}
+.requestBox img{margin: 0 4px}
+.apName{width: 200px; height: 20px; overflow: hidden;}
+.apDescription{width: 200px; height: 20px; overflow: hidden;}
+.apDescription:hover{cursor: pointer}
+.apFinished{width: 130px; height: 20px;}
+.apDeadline{width: 130px; height: 20px; overflow: hidden;}
